@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>BlackJack</title>
+</head>
+<body>
+    <header class="title">
+        BlackJack
+    </header>
+
+    <div id="menu">
+        <button id="btnNew" class="btn btn-danger">New game</button>
+        <button id="btnPlay" disabled="true" class="btn btn-primary">Draw a card</button>
+        <button id="btnStop" disabled="true" class="btn btn-primary">Stop</button>
+    </div>
+
+    <div class="board">
+        <div id="player">
+            <h1>Player - <small>0</small></h1>
+            <div id="player-cards" class="cards"></div>
+        </div>
+    
+        <div id="com">
+            <h1>COM - <small>0</small></h1>
+            <div id="pc-cards" class="cards"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/game-min.js"></script>
+</body>
+</html>

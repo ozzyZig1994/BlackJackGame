@@ -1,0 +1,57 @@
+html, body {
+    background-color: #2f4f30;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    font-size: 25px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.btn {
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0.375rem 0.75rem;
+}
+
+.btn:disabled {
+    background: #dddddd;
+}
+
+.btn-danger{
+    background-color: red;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+}
+
+.card {
+    left: 100px;
+    margin-left: -75px;
+    position: relative;
+    width: 125px;
+}
+
+.board {
+    display: grid;
+    grid-template-rows: 285px 285px;
+}
+
+#player, #com {
+    margin-left: 50px;
+}
